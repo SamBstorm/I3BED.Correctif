@@ -20,7 +20,7 @@ export class NavigationComponent implements OnInit {
     this.links.push(new Link('Exercices','/exercice',[      
       new Link('------'),
       new Link('Chronomètre','/chrono'),    
-      new Link('Chronomètre avec fonction Start, Pause et reset'),
+      new Link('Tableau de scores','/score'),
     ]));
   }
 

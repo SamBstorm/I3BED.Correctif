@@ -1,0 +1,5 @@
+<h1>Voici les scores</h1>
+<app-scrore></app-scrore>
+<ng-container *ngFor="let teamName of teamNames">
+    <app-equipe [teamName]="teamName"></app-equipe>
+</ng-container>
